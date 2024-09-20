@@ -3,17 +3,23 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Rock im Park 2025 Preview test</title>
+    <title>Rock im Park 2025 Preview</title>
     <style>
         body {
             font-family: Arial, sans-serif;
             margin: 0;
             padding: 20px;
-            background-color: #f0f0f0;
+            background-image: url('background.jpg');
+            background-size: cover;
+            background-position: center;
+            background-attachment: fixed;
+            background-repeat: no-repeat;
+            background-color: #f0f0f0; /* Fallback color */
         }
         h1 {
             text-align: center;
-            color: #333;
+            color: #fff;
+            text-shadow: 2px 2px 4px rgba(0,0,0,0.7);
         }
         .video-container {
             display: grid;
@@ -22,7 +28,7 @@
             padding: 20px;
         }
         .video-item {
-            background-color: #fff;
+            background-color: rgba(255, 255, 255, 0.8);
             border-radius: 8px;
             overflow: hidden;
             box-shadow: 0 2px 4px rgba(0,0,0,0.1);
@@ -70,14 +76,14 @@
     <div class="video-item">
         <div class="video-wrapper">
             <iframe width="560" height="315" src="https://www.youtube.com/embed/zSwqLsuJRY0?si=AfsuoXT1oYIWsKZ9&amp;start=1980" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" referrerpolicy="strict-origin-when-cross-origin" allowfullscreen></iframe>
-            </div>
-            <div class="video-description">
+        </div>
+        <div class="video-description">
             <p>Bring Me The Horizon</p>
         </div>
     </div>
     <div class="video-item">
         <div class="video-wrapper">
-            <iframe width="560" height="315" src="https://www.youtube.com/embed/rsvGjIrqq8c?si=XRw6I5zD-S_U85Sl" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" referrerpolicy="strict-origin-when-cross-origin" allowfullscreen></iframe>
+            <iframe width="560" height="315" src="https://www.youtube.com/embed/rsvGjIrqq8c?si=XRw6I5zD-S_U85Sl" title="YouTube video player" frameborder="0" referrerpolicy="strict-origin-when-cross-origin" allowfullscreen></iframe>
         </div>
         <div class="video-description">
             <p>Slipknot</p>
@@ -98,7 +104,6 @@
         <div class="video-description">
             <p>Powerwolf</p>
         </div>
-    </div>
-</div>
+    </div></div>
 </body>
 </html>
